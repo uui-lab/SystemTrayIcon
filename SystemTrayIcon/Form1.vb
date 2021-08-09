@@ -24,7 +24,4 @@
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         NotifyIcon1.Visible = CheckBox1.Checked
     End Sub
-
-    Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
-    End Sub
 End Class
